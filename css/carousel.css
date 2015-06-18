@@ -50,6 +50,7 @@ body {
 .carousel .item {
   height: 500px;
   background-color: #777;
+  text-align: center;
 }
 
 .carousel-inner {
@@ -61,7 +62,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: auto;
+  height: 600px;
 }
 
 
