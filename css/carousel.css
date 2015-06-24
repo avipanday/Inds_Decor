@@ -48,7 +48,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 756px;
   background-color: #777;
   text-align: center;
 }
@@ -62,7 +62,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 600px;
+  height: 756px;
 }
 
 
@@ -108,13 +108,17 @@ body {
   text-align: center;
 }
 
+.carousel-control {
+  height: 756px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
@@ -140,6 +144,10 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  .carousel-indicators {
+    bottom: -200px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -152,6 +160,21 @@ body {
     visibility: hidden;
     clear: both;
     display: none;
+  }
+
+  .carousel .item {
+    top:21px;
+    height: 300px;
+  }
+
+
+  .carousel-inner > .item > img {
+    height: 300px;
+  }
+
+  .carousel-control {
+    top:50px;
+    height: 250px;
   }
 }
 
