@@ -176,5 +176,9 @@ body {
     top:50px;
     height: 250px;
   }
+
+  .carousel-indicators {
+    bottom: 210px;
+  }
 }
 
