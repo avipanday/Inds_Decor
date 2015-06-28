@@ -54,7 +54,7 @@ body {
 }
 
 .carousel-inner {
-  top:-71px;
+  top:-101px;
 }
 
 .carousel-inner > .item > img {
@@ -112,6 +112,10 @@ body {
   height: 756px;
 }
 
+.carousel-indicators {
+  position: relative;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -146,7 +150,7 @@ body {
   }
 
   .carousel-indicators {
-    bottom: -200px;
+    bottom: -600px;
   }
 }
 
@@ -178,7 +182,7 @@ body {
   }
 
   .carousel-indicators {
-    bottom: 210px;
+    top: 180px;
   }
 }
 
