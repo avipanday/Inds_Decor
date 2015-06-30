@@ -116,6 +116,42 @@ body {
   position: relative;
 }
 
+#instafeed-container {
+  padding-top:20px;
+  height: 250px;
+}
+
+#instafeed {
+  height: 250px;
+}
+
+.ig-b- { 
+  display: inline-block;
+}
+
+.ig-b- img { 
+  visibility: hidden; 
+}
+
+.ig-b-:hover { 
+  background-position: 0 -60px; 
+}
+
+.ig-b-:active { 
+  background-position: 0 -120px; 
+}
+
+.ig-b-v-24 { 
+  width: 137px; 
+  height: 24px; 
+  background: url(http://badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; 
+}
+
+#ig-container {
+  padding-top: 220px;
+  text-align: center; 
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -184,5 +220,31 @@ body {
   .carousel-indicators {
     top: 180px;
   }
+
+  .carousel {
+    height: 305px;
+    margin-bottom: 0px;
+  }
+
+  #instafeed-container {
+    padding-top: 0px;
+  }
+
+  #instafeed {
+    height: 900px;
+  }
+
+  #ig-container {
+    padding-bottom: 5px;
+    padding-top: 0px;
+  }
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .ig-b-v-24 { 
+    background-image: url(http://badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); 
+    background-size: 160px 178px; 
+  } 
+}
+
 
