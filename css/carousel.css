@@ -152,6 +152,11 @@ body {
   text-align: center; 
 }
 
+#main-body {
+  background-image: url(../images/background.jpg);
+  background-size: auto;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
