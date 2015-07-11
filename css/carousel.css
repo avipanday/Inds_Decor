@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
 
@@ -155,6 +154,14 @@ body {
 #main-body {
   background-image: url(../images/background.jpg);
   background-size: auto;
+}
+
+#navbar{
+  font-family:"brandon-grotesque",Arial,Helvetica,sans-serif;
+  font-weight:700;
+  line-height:1.5;
+  text-transform:uppercase;
+  letter-spacing:0.14em;
 }
 
 /* RESPONSIVE CSS
