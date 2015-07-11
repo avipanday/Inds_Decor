@@ -164,6 +164,10 @@ body {
   letter-spacing:0.14em;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
