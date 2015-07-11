@@ -16,7 +16,7 @@ function adjustCarousel() {
 
 jQuery(document).ready(function() {
     var offset = 250;
-    var duration = 300;
+    var duration = 400;
     jQuery(window).scroll(function() {
         if (jQuery(this).scrollTop() > offset) {
             jQuery('.back-to-top').fadeIn(duration);
