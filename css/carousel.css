@@ -168,6 +168,21 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   display: block;
 }
 
+.info-padding{
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.info-padding>*{
+  font-family:"brandon-grotesque",Arial,Helvetica,sans-serif;
+}
+
+.carousel-other {
+  height: auto;
+  margin-bottom: 30px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

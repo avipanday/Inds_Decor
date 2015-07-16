@@ -29,6 +29,7 @@
 }
 
 .flexbox{
+	display: -webkit-box;
 	display: flex;
 	justify-content: space-between;
 }
